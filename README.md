@@ -1,9 +1,18 @@
-# StudentManagement
+# 👨‍🎓 Simple Student Management App – ASP.NET Core MVC
 
-Simple program to render HTML content using View in ASP.NET core MVC.
-here you just able to add the Student Name and Age only .
-if you going to add new student by clicking on create then the ID of that new student will be the max id available there + 1; 
-suppose if you have 3 student then the max id present there is 3.
-new student added then new student Id will be 4.
+This is a basic ASP.NET Core MVC web application that allows you to:
 
+- View a list of students (Name, Age, ID)
+- Add a new student using a simple form
+- Automatically assign a unique ID (Max ID + 1)
+
+---
+
+## 🔧 Features
+
+- ASP.NET Core MVC pattern (Model-View-Controller)
+- Razor View engine to render dynamic HTML
+- In-memory student list (no database)
+- Auto-incrementing Student ID
+  
 # Written by Dikshan kc
