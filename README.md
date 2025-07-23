@@ -15,4 +15,4 @@ This is a basic ASP.NET Core MVC web application that allows you to:
 - In-memory student list (no database)
 - Auto-incrementing Student ID
   
-# Written by Dikshan kc
+
