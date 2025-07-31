@@ -1,7 +1,7 @@
 ﻿@model StudentManagement.Models.Student
 
 <div class="container mt-4">
-    <h2 class="mb-3 text-primary">Create New Student</h2>
+    <h2 class="mb-3 text-primary">Register New Student</h2>
 
     <form asp-action="Create" method="post" class="border p-4 rounded shadow-sm bg-light">
         <div class="mb-3">
@@ -10,12 +10,17 @@
             <span asp-validation-for="Name" class="text-danger"></span>
         </div>
         <div class="mb-3">
+            <label asp-for="Email" class="form-label">Email</label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
             <label asp-for="Age" class="form-label">Age</label>
             <input asp-for="Age" class="form-control" />
             <span asp-validation-for="Age" class="text-danger"></span>
         </div>
 
-        <button type="submit" class="btn btn-success">Create</button>
+        <button type="submit" class="btn btn-success">Submit</button>
         <a href="/Student/Index" class="btn btn-secondary ms-2">Back to List</a>
     </form>
 </div>

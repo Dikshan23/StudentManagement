@@ -1,0 +1,13 @@
+﻿@model StudentManagement.Models.Student
+
+<h2 class="mb-4 text-center">Student Added Successfully!</h2>
+<div class="card w-50 mx-auto shadow-sm">
+    <div class="card-body">
+        <p class="mb-2"><strong>ID:</strong> @Model.Id</p>
+        <p class="mb-2"><strong>Name:</strong> @Model.Name</p>
+        <p class ="mb-2"><strong>Email:</strong> @Model.Email</p>
+        <p class ="mb-2"><strong>Age:</strong> @Model.Age</p>
+        </div>
+    <a asp-action="Index" class="btn btn-primary">Back to Student List</a>
+        </div>
+

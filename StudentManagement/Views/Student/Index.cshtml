@@ -3,13 +3,14 @@
 <div class="container mt-4">
     <h2 class="mb-3">Student List</h2>
 
-    <a href="/Student/Create" class="btn btn-primary mb-3">Add New Student</a>
+    <a href="/Student/Create" class="btn btn-primary mb-3">Register New Student</a>
 
     <table class="table table-bordered">
         <thead class="table-light">
             <tr>
                 <th>ID</th>
                 <th>Name</th>
+                <th>Email</th>
                 <th>Age</th>
             </tr>
         </thead>
@@ -18,7 +19,9 @@
             {
                 <tr>
                     <td>@student.Id</td>
+
                     <td>@student.Name</td>
+                    <td>@student.Email</td>
                     <td>@student.Age</td>
                 </tr>
             }
